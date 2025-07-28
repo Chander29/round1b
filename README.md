@@ -19,3 +19,5 @@ Run the Container: Execute the following command to run the script. It will proc
 docker run --rm -v "$(pwd)/input:/app/input" -v "$(pwd)/output:/app/output" --network none doc-intel-1b:1.0
 
 (Note for Windows users: In Command Prompt, replace $(pwd) with %cd%. In PowerShell, use ${pwd}.)
+
+NOTE: please run download_model.py first or either unarchieve the zip folder from unstop website to run this project properly
