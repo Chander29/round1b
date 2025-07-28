@@ -20,4 +20,4 @@ docker run --rm -v "$(pwd)/input:/app/input" -v "$(pwd)/output:/app/output" --ne
 
 (Note for Windows users: In Command Prompt, replace $(pwd) with %cd%. In PowerShell, use ${pwd}.)
 
-NOTE: please run download_model.py first or either unarchieve the zip folder from unstop website to run this project properly
+NOTE: please run download_model.py first or this will not work at all because the folder size for models was around 300MB so we are getting upload limit issue
