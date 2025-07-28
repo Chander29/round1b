@@ -91,7 +91,7 @@ def generate_output_json(ranked_sections, input_docs, persona, job, output_dir, 
     print(f"\nSuccessfully created final output at: {output_path}")
 
 def main():
-    test_case_dir = "input/test_case_1"
+    test_case_dir = "input"
     output_dir = "output"
     os.makedirs(output_dir, exist_ok=True)
 
